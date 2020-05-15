@@ -6,9 +6,15 @@
 h2, .collapsible {
   font-size: 16px;
 }
+h1	{
+	font-size: 32px;
+}
 @media screen and (min-width: 320px) {
   h2, .collapsible {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+  h1	{
+	  font-size: calc(32px + 6 * ((100vw - 320px) / 680));
   }
   section	{
 	  padding: 10px;
@@ -17,6 +23,9 @@ h2, .collapsible {
 @media screen and (min-width: 1000px) {
   h2, .collapsible {
     font-size: 22px;
+  }
+  h1	{
+	  font-size: 44px;
   }
   section	{
 	  padding: 20px 80px 20px 80px;
@@ -70,6 +79,8 @@ section	{
 	width: 90%;
 }
 h1	{
+	font-family: customfont; 
+	color: white; 
 	text-shadow: 5px 5px black;
 }
 h2	{
