@@ -124,6 +124,7 @@ footer	{
 	float: left;
 	padding-right: 15px;
 	width: 40%;
+	min-width: 260px;
 }
 /*Modal*/
 #myimg	{
