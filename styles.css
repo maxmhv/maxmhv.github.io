@@ -93,8 +93,8 @@ h2	{
 footer	{
 	margin-top: 20px;
 	color: grey;
-	margin-left: 200px;
-	margin-right: 200px;
+	font-size: 65%; 
+	text-align: left;
 }
 .btnnext	{
 	float: right;
